@@ -1,0 +1,21 @@
+﻿<Page x:Class="CompClass.Pages.AddClassP"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CompClass.Pages"
+      mc:Ignorable="d" 
+      Width="324" Height="314"
+      Title="AddClassP" Background="White">
+
+    <Grid>
+        <TextBox HorizontalAlignment="Left" x:Name="NumberTB" Margin="148,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.365,0.724"/>
+        <TextBlock HorizontalAlignment="Left" Margin="67,107,0,0" TextWrapping="Wrap" Text="ClassNumber" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="67,144,0,0" TextWrapping="Wrap" Text="SeatCount"  VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" x:Name="SeatTB" Margin="148,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AddBT" Content="Add" HorizontalAlignment="Left" Margin="67,181,0,0" VerticalAlignment="Top" Width="111" Click="AddBT_Click"/>
+        <Button x:Name="BackBT" Content="Back" HorizontalAlignment="Left" Margin="192,181,0,0" VerticalAlignment="Top" Width="76" Click="BackBT_Click"/>
+        
+
+    </Grid>
+</Page>
